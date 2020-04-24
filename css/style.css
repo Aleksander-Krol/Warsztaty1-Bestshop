@@ -1,140 +1,214 @@
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 :root {
-    font-size: 10px;
+  font-size: 10px;
 }
 
-
 .gen-container {
-
 }
 
 /* ----> Header <---- */
 
 .header {
-width: 100%;
-display: flex;
+  width: 100%;
+  display: flex;
 
-justify-content: center;
+  justify-content: center;
 }
 
 .header-container {
-width: 1352px;
-display: flex;
-align-items: center;
-justify-content: space-around;
-box-shadow: 0px 3px 6px #00000029;
-padding:  15px 0 15px 0;
+  width: 1352px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 3px 6px #00000029;
+  padding: 15px 0 15px 0;
 }
 
 .logo {
-    font-family: 'Raleway', sans-serif;
-    font-size: 3.2em;
-    font-weight: 300;
-    color: #08A6E4;
-    text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 3.2em;
+  font-weight: 300;
+  color: #08a6e4;
+  text-decoration: none;
 }
 
 .hmenu {
-
 }
 
 .hmenu-list {
-    display: flex;
-    font-family: 'Open Sans', sans-serif;
-    
+  display: flex;
+  font-family: "Open Sans", sans-serif;
 }
 
 .hmenu-list__el {
-   
 }
 
 .hmenu-list__link {
-    font-size: 1.1em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #A5A5A5;
-    margin-left: 94px;
-    
+  font-size: 1.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #a5a5a5;
+  margin-left: 94px;
 }
 
 .hmenu-list__link:hover {
-color: #000000;
-border-bottom: 4px solid #08A6E4;
-transition: 0.3s;
+  color: #000000;
+  border-bottom: 4px solid #08a6e4;
+  transition: 0.3s;
 }
 
 /* ----> Hero <---- */
 
 .hero {
-
 }
 
 .hero-container {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .heslogan {
-font-family: 'Raleway', sans-serif ;
-font-size: 4.9em;
-font-weight: normal;
-margin-bottom: 20px;
-margin-top: 130px;
+  font-family: "Raleway", sans-serif;
+  font-size: 4.9em;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-top: 130px;
 }
 
 .hedesc {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    font-size: 1.6em;
-    margin-bottom: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 1.6em;
+  margin-bottom: 40px;
 }
 
 .hebtn {
-padding: 22px 157px ;
-background: #08A6E4;
-color: #FFFFFF;
-border-radius: 40px;
-box-shadow: 5px 10px 14px #07ACE629;
-font-family: 'Open Sans', sans-serif;
-font-size: 1.6em;
-text-transform: none;
-text-decoration: none;
-text-align: center;
+  padding: 22px 157px;
+  background: #08a6e4;
+  color: #ffffff;
+  border-radius: 40px;
+  box-shadow: 5px 10px 14px #07ace629;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6em;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
 }
 
 .hebackground {
-
 }
 
 /* ----> Stats <---- */
 
 .stats {
-
 }
 
 .stat-container {
-
 }
 
 .stat-title {
-
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 3.6em;
+  text-align: center;
+  margin: 100px 0 100px 0;
 }
 
 .stat-list {
-    display: block;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .stat-card {
-
+  display: flex;
+  flex-direction: column;
 }
 
-.stat-card_pic {
+.stat-card_pica {
+  position: relative;
+  text-align: center;
+}
 
+.pica-bcg {
+  background: #fb3b64;
+  border-radius: 50%;
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+
+.stat-card_pica-ic {
+  position: relative;
+  margin-left: 30px;
+  
+}
+
+.stat-card_picb {
+  position: relative;
+  text-align: center;
+}
+
+.picb-bcg {
+  background: #08a6e4;
+  border-radius: 50%;
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+
+.stat-card_picb-ic {
+  position: relative;
+  margin-left: 30px;
+  
+}
+
+.stat-card_picc {
+  position: relative;
+  text-align: center;
+}
+
+.picc-bcg {
+  background: #55dfb4;
+  border-radius: 50%;
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+
+.stat-card_picc-ic {
+  position: relative;
+  margin-left: 30px;
 }
 
 .stat-nr {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 2em;
+  text-align: center;
+  margin: 15px 0 15px 0;
+}
 
+.stat-card_txt {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.7em;
+  color: #a5a5a5;
+  text-align: center;
+}
+
+.perk-container {
+  background-color: #f7f7f7;
+  width: 100%;
 }
