@@ -107,6 +107,7 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 .stat-container {
+padding-bottom: 120px;
 }
 
 .stat-title {
@@ -208,7 +209,50 @@ font-family: 'Open Sans', sans-serif; */
   text-align: center;
 }
 
+.perks {
+
+}
+
 .perk-container {
   background-color: #f7f7f7;
   width: 100%;
+  padding: 100px 0;
+}
+
+.perk-row {
+background: #ffffff;
+display: flex;
+border-radius: 5px;
+border: 1px solid #e8e9ed;
+margin-bottom: 37px;
+
+}
+
+.perk-row::after {
+content: "";
+width: 332px;
+height: 4px;
+background-color: #FB3B64 ;
+
+}
+
+
+.perk-row__text {
+
+max-width: 415px;
+margin: 90px 36px;
+}
+
+
+
+.perk-row__text-head {
+  font-family: 'Raleway', sans-serif; 
+  font-size: 36px; 
+  font-weight: 400;
+}
+
+.perk-row__text-body {
+    font-family: 'Open sans', sans-serif; 
+    font-size: 16px; 
+    font-weight: 400;
 }
